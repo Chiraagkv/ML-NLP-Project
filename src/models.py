@@ -16,9 +16,15 @@ from sklearn.neighbors import KNeighborsClassifier
 from sklearn.cluster import KMeans
 from sklearn.metrics import (accuracy_score, f1_score, classification_report, confusion_matrix,)
 from sklearn.preprocessing import LabelEncoder
+from tqdm import tqdm
+
 def get_models():
     return {
-        "Logistic Regression": LogisticRegression(max_iter=1000, C=1.0,solver="lbfgs",multi_class="auto",random_state=42,),
+        "Logistic Regression": LogisticRegression(
+    max_iter=1000,
+    solver="lbfgs",
+    random_state=42,
+),
         "Linear SVM": LinearSVC(C=1.0,max_iter=2000,random_state=42,),
         "RBF SVM": SVC(kernel="rbf",C=1.0,gamma="scale",random_state=42,),
         "KNN (k=5)": KNeighborsClassifier(n_neighbors=5,metric="cosine",n_jobs=-1,),
@@ -86,7 +92,7 @@ def run_all_models(X_train, X_test, y_train, y_test, feature_name="Features"):
     print(f"  {'-'*55}")
 
     # Supervised models
-    for name, model in get_models().items():
+    for name, model in tqdm(get_models().items(), desc=f"{feature_name} Models" ):
         res = train_and_evaluate(name, model, X_train, X_test, y_train, y_test)
         results.append({**res, "feature_space": feature_name})
         print(f"  {res['model']:<25} {res['accuracy']:>10.4f} {res['macro_f1']:>10.4f} {res['train_time_s']:>10.3f}")

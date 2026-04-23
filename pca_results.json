@@ -1,0 +1,758 @@
+[
+  {
+    "model": "Logistic Regression",
+    "accuracy": 0.8375,
+    "macro_f1": 0.8373,
+    "report": "              precision    recall  f1-score   support\n\n           0       0.85      0.81      0.83       792\n           1       0.83      0.86      0.84       808\n\n    accuracy                           0.84      1600\n   macro avg       0.84      0.84      0.84      1600\nweighted avg       0.84      0.84      0.84      1600\n",
+    "confusion_matrix": [
+      [
+        645,
+        147
+      ],
+      [
+        113,
+        695
+      ]
+    ],
+    "train_time_s": 0.007,
+    "feature_space": "TF-IDF SVD (50)",
+    "dim": 50,
+    "method": "TF-IDF SVD",
+    "explained_variance": 0.04805719693023422
+  },
+  {
+    "model": "Linear SVM",
+    "accuracy": 0.8469,
+    "macro_f1": 0.8468,
+    "report": "              precision    recall  f1-score   support\n\n           0       0.85      0.84      0.84       792\n           1       0.84      0.86      0.85       808\n\n    accuracy                           0.85      1600\n   macro avg       0.85      0.85      0.85      1600\nweighted avg       0.85      0.85      0.85      1600\n",
+    "confusion_matrix": [
+      [
+        663,
+        129
+      ],
+      [
+        116,
+        692
+      ]
+    ],
+    "train_time_s": 0.015,
+    "feature_space": "TF-IDF SVD (50)",
+    "dim": 50,
+    "method": "TF-IDF SVD",
+    "explained_variance": 0.04805719693023422
+  },
+  {
+    "model": "RBF SVM",
+    "accuracy": 0.8612,
+    "macro_f1": 0.8612,
+    "report": "              precision    recall  f1-score   support\n\n           0       0.85      0.87      0.86       792\n           1       0.87      0.85      0.86       808\n\n    accuracy                           0.86      1600\n   macro avg       0.86      0.86      0.86      1600\nweighted avg       0.86      0.86      0.86      1600\n",
+    "confusion_matrix": [
+      [
+        692,
+        100
+      ],
+      [
+        122,
+        686
+      ]
+    ],
+    "train_time_s": 0.498,
+    "feature_space": "TF-IDF SVD (50)",
+    "dim": 50,
+    "method": "TF-IDF SVD",
+    "explained_variance": 0.04805719693023422
+  },
+  {
+    "model": "KNN (k=5)",
+    "accuracy": 0.765,
+    "macro_f1": 0.765,
+    "report": "              precision    recall  f1-score   support\n\n           0       0.76      0.77      0.76       792\n           1       0.77      0.76      0.77       808\n\n    accuracy                           0.77      1600\n   macro avg       0.77      0.77      0.76      1600\nweighted avg       0.77      0.77      0.77      1600\n",
+    "confusion_matrix": [
+      [
+        608,
+        184
+      ],
+      [
+        192,
+        616
+      ]
+    ],
+    "train_time_s": 0.0,
+    "feature_space": "TF-IDF SVD (50)",
+    "dim": 50,
+    "method": "TF-IDF SVD",
+    "explained_variance": 0.04805719693023422
+  },
+  {
+    "model": "KNN (k=11)",
+    "accuracy": 0.7956,
+    "macro_f1": 0.7955,
+    "report": "              precision    recall  f1-score   support\n\n           0       0.80      0.78      0.79       792\n           1       0.79      0.81      0.80       808\n\n    accuracy                           0.80      1600\n   macro avg       0.80      0.80      0.80      1600\nweighted avg       0.80      0.80      0.80      1600\n",
+    "confusion_matrix": [
+      [
+        620,
+        172
+      ],
+      [
+        155,
+        653
+      ]
+    ],
+    "train_time_s": 0.0,
+    "feature_space": "TF-IDF SVD (50)",
+    "dim": 50,
+    "method": "TF-IDF SVD",
+    "explained_variance": 0.04805719693023422
+  },
+  {
+    "model": "KMeans",
+    "accuracy": 0.5325,
+    "macro_f1": 0.5314,
+    "report": "              precision    recall  f1-score   support\n\n           0       0.52      0.59      0.55       792\n           1       0.54      0.48      0.51       808\n\n    accuracy                           0.53      1600\n   macro avg       0.53      0.53      0.53      1600\nweighted avg       0.53      0.53      0.53      1600\n",
+    "confusion_matrix": [
+      [
+        465,
+        327
+      ],
+      [
+        421,
+        387
+      ]
+    ],
+    "train_time_s": null,
+    "feature_space": "TF-IDF SVD (50)",
+    "dim": 50,
+    "method": "TF-IDF SVD",
+    "explained_variance": 0.04805719693023422
+  },
+  {
+    "model": "Logistic Regression",
+    "accuracy": 0.825,
+    "macro_f1": 0.8249,
+    "report": "              precision    recall  f1-score   support\n\n           0       0.81      0.85      0.83       792\n           1       0.85      0.80      0.82       808\n\n    accuracy                           0.82      1600\n   macro avg       0.83      0.83      0.82      1600\nweighted avg       0.83      0.82      0.82      1600\n",
+    "confusion_matrix": [
+      [
+        674,
+        118
+      ],
+      [
+        162,
+        646
+      ]
+    ],
+    "train_time_s": 0.012,
+    "feature_space": "BERT PCA (50)",
+    "dim": 50,
+    "method": "BERT PCA",
+    "explained_variance": 0.7715094089508057
+  },
+  {
+    "model": "Linear SVM",
+    "accuracy": 0.8256,
+    "macro_f1": 0.8256,
+    "report": "              precision    recall  f1-score   support\n\n           0       0.80      0.85      0.83       792\n           1       0.85      0.80      0.82       808\n\n    accuracy                           0.83      1600\n   macro avg       0.83      0.83      0.83      1600\nweighted avg       0.83      0.83      0.83      1600\n",
+    "confusion_matrix": [
+      [
+        677,
+        115
+      ],
+      [
+        164,
+        644
+      ]
+    ],
+    "train_time_s": 0.032,
+    "feature_space": "BERT PCA (50)",
+    "dim": 50,
+    "method": "BERT PCA",
+    "explained_variance": 0.7715094089508057
+  },
+  {
+    "model": "RBF SVM",
+    "accuracy": 0.8406,
+    "macro_f1": 0.8406,
+    "report": "              precision    recall  f1-score   support\n\n           0       0.83      0.86      0.84       792\n           1       0.85      0.83      0.84       808\n\n    accuracy                           0.84      1600\n   macro avg       0.84      0.84      0.84      1600\nweighted avg       0.84      0.84      0.84      1600\n",
+    "confusion_matrix": [
+      [
+        678,
+        114
+      ],
+      [
+        141,
+        667
+      ]
+    ],
+    "train_time_s": 0.581,
+    "feature_space": "BERT PCA (50)",
+    "dim": 50,
+    "method": "BERT PCA",
+    "explained_variance": 0.7715094089508057
+  },
+  {
+    "model": "KNN (k=5)",
+    "accuracy": 0.7619,
+    "macro_f1": 0.7619,
+    "report": "              precision    recall  f1-score   support\n\n           0       0.76      0.76      0.76       792\n           1       0.77      0.76      0.76       808\n\n    accuracy                           0.76      1600\n   macro avg       0.76      0.76      0.76      1600\nweighted avg       0.76      0.76      0.76      1600\n",
+    "confusion_matrix": [
+      [
+        604,
+        188
+      ],
+      [
+        193,
+        615
+      ]
+    ],
+    "train_time_s": 0.0,
+    "feature_space": "BERT PCA (50)",
+    "dim": 50,
+    "method": "BERT PCA",
+    "explained_variance": 0.7715094089508057
+  },
+  {
+    "model": "KNN (k=11)",
+    "accuracy": 0.7762,
+    "macro_f1": 0.7762,
+    "report": "              precision    recall  f1-score   support\n\n           0       0.77      0.78      0.78       792\n           1       0.78      0.77      0.78       808\n\n    accuracy                           0.78      1600\n   macro avg       0.78      0.78      0.78      1600\nweighted avg       0.78      0.78      0.78      1600\n",
+    "confusion_matrix": [
+      [
+        617,
+        175
+      ],
+      [
+        183,
+        625
+      ]
+    ],
+    "train_time_s": 0.001,
+    "feature_space": "BERT PCA (50)",
+    "dim": 50,
+    "method": "BERT PCA",
+    "explained_variance": 0.7715094089508057
+  },
+  {
+    "model": "KMeans",
+    "accuracy": 0.5394,
+    "macro_f1": 0.5394,
+    "report": "              precision    recall  f1-score   support\n\n           0       0.53      0.54      0.54       792\n           1       0.54      0.54      0.54       808\n\n    accuracy                           0.54      1600\n   macro avg       0.54      0.54      0.54      1600\nweighted avg       0.54      0.54      0.54      1600\n",
+    "confusion_matrix": [
+      [
+        426,
+        366
+      ],
+      [
+        371,
+        437
+      ]
+    ],
+    "train_time_s": null,
+    "feature_space": "BERT PCA (50)",
+    "dim": 50,
+    "method": "BERT PCA",
+    "explained_variance": 0.7715094089508057
+  },
+  {
+    "model": "Logistic Regression",
+    "accuracy": 0.8488,
+    "macro_f1": 0.8486,
+    "report": "              precision    recall  f1-score   support\n\n           0       0.86      0.82      0.84       792\n           1       0.83      0.87      0.85       808\n\n    accuracy                           0.85      1600\n   macro avg       0.85      0.85      0.85      1600\nweighted avg       0.85      0.85      0.85      1600\n",
+    "confusion_matrix": [
+      [
+        652,
+        140
+      ],
+      [
+        102,
+        706
+      ]
+    ],
+    "train_time_s": 0.008,
+    "feature_space": "TF-IDF SVD (100)",
+    "dim": 100,
+    "method": "TF-IDF SVD",
+    "explained_variance": 0.07929979636299879
+  },
+  {
+    "model": "Linear SVM",
+    "accuracy": 0.8544,
+    "macro_f1": 0.8543,
+    "report": "              precision    recall  f1-score   support\n\n           0       0.86      0.84      0.85       792\n           1       0.85      0.87      0.86       808\n\n    accuracy                           0.85      1600\n   macro avg       0.85      0.85      0.85      1600\nweighted avg       0.85      0.85      0.85      1600\n",
+    "confusion_matrix": [
+      [
+        668,
+        124
+      ],
+      [
+        109,
+        699
+      ]
+    ],
+    "train_time_s": 0.025,
+    "feature_space": "TF-IDF SVD (100)",
+    "dim": 100,
+    "method": "TF-IDF SVD",
+    "explained_variance": 0.07929979636299879
+  },
+  {
+    "model": "RBF SVM",
+    "accuracy": 0.8612,
+    "macro_f1": 0.8612,
+    "report": "              precision    recall  f1-score   support\n\n           0       0.85      0.88      0.86       792\n           1       0.88      0.84      0.86       808\n\n    accuracy                           0.86      1600\n   macro avg       0.86      0.86      0.86      1600\nweighted avg       0.86      0.86      0.86      1600\n",
+    "confusion_matrix": [
+      [
+        696,
+        96
+      ],
+      [
+        126,
+        682
+      ]
+    ],
+    "train_time_s": 0.707,
+    "feature_space": "TF-IDF SVD (100)",
+    "dim": 100,
+    "method": "TF-IDF SVD",
+    "explained_variance": 0.07929979636299879
+  },
+  {
+    "model": "KNN (k=5)",
+    "accuracy": 0.7625,
+    "macro_f1": 0.7625,
+    "report": "              precision    recall  f1-score   support\n\n           0       0.76      0.76      0.76       792\n           1       0.76      0.77      0.77       808\n\n    accuracy                           0.76      1600\n   macro avg       0.76      0.76      0.76      1600\nweighted avg       0.76      0.76      0.76      1600\n",
+    "confusion_matrix": [
+      [
+        599,
+        193
+      ],
+      [
+        187,
+        621
+      ]
+    ],
+    "train_time_s": 0.0,
+    "feature_space": "TF-IDF SVD (100)",
+    "dim": 100,
+    "method": "TF-IDF SVD",
+    "explained_variance": 0.07929979636299879
+  },
+  {
+    "model": "KNN (k=11)",
+    "accuracy": 0.7856,
+    "macro_f1": 0.7856,
+    "report": "              precision    recall  f1-score   support\n\n           0       0.79      0.78      0.78       792\n           1       0.79      0.79      0.79       808\n\n    accuracy                           0.79      1600\n   macro avg       0.79      0.79      0.79      1600\nweighted avg       0.79      0.79      0.79      1600\n",
+    "confusion_matrix": [
+      [
+        617,
+        175
+      ],
+      [
+        168,
+        640
+      ]
+    ],
+    "train_time_s": 0.001,
+    "feature_space": "TF-IDF SVD (100)",
+    "dim": 100,
+    "method": "TF-IDF SVD",
+    "explained_variance": 0.07929979636299879
+  },
+  {
+    "model": "KMeans",
+    "accuracy": 0.5319,
+    "macro_f1": 0.5307,
+    "report": "              precision    recall  f1-score   support\n\n           0       0.52      0.59      0.55       792\n           1       0.54      0.48      0.51       808\n\n    accuracy                           0.53      1600\n   macro avg       0.53      0.53      0.53      1600\nweighted avg       0.53      0.53      0.53      1600\n",
+    "confusion_matrix": [
+      [
+        465,
+        327
+      ],
+      [
+        422,
+        386
+      ]
+    ],
+    "train_time_s": null,
+    "feature_space": "TF-IDF SVD (100)",
+    "dim": 100,
+    "method": "TF-IDF SVD",
+    "explained_variance": 0.07929979636299879
+  },
+  {
+    "model": "Logistic Regression",
+    "accuracy": 0.8375,
+    "macro_f1": 0.8375,
+    "report": "              precision    recall  f1-score   support\n\n           0       0.83      0.85      0.84       792\n           1       0.85      0.82      0.84       808\n\n    accuracy                           0.84      1600\n   macro avg       0.84      0.84      0.84      1600\nweighted avg       0.84      0.84      0.84      1600\n",
+    "confusion_matrix": [
+      [
+        675,
+        117
+      ],
+      [
+        143,
+        665
+      ]
+    ],
+    "train_time_s": 0.018,
+    "feature_space": "BERT PCA (100)",
+    "dim": 100,
+    "method": "BERT PCA",
+    "explained_variance": 0.8768015503883362
+  },
+  {
+    "model": "Linear SVM",
+    "accuracy": 0.8375,
+    "macro_f1": 0.8375,
+    "report": "              precision    recall  f1-score   support\n\n           0       0.82      0.86      0.84       792\n           1       0.85      0.82      0.84       808\n\n    accuracy                           0.84      1600\n   macro avg       0.84      0.84      0.84      1600\nweighted avg       0.84      0.84      0.84      1600\n",
+    "confusion_matrix": [
+      [
+        679,
+        113
+      ],
+      [
+        147,
+        661
+      ]
+    ],
+    "train_time_s": 0.038,
+    "feature_space": "BERT PCA (100)",
+    "dim": 100,
+    "method": "BERT PCA",
+    "explained_variance": 0.8768015503883362
+  },
+  {
+    "model": "RBF SVM",
+    "accuracy": 0.845,
+    "macro_f1": 0.845,
+    "report": "              precision    recall  f1-score   support\n\n           0       0.83      0.86      0.85       792\n           1       0.86      0.83      0.84       808\n\n    accuracy                           0.84      1600\n   macro avg       0.85      0.85      0.84      1600\nweighted avg       0.85      0.84      0.84      1600\n",
+    "confusion_matrix": [
+      [
+        680,
+        112
+      ],
+      [
+        136,
+        672
+      ]
+    ],
+    "train_time_s": 0.713,
+    "feature_space": "BERT PCA (100)",
+    "dim": 100,
+    "method": "BERT PCA",
+    "explained_variance": 0.8768015503883362
+  },
+  {
+    "model": "KNN (k=5)",
+    "accuracy": 0.7712,
+    "macro_f1": 0.7712,
+    "report": "              precision    recall  f1-score   support\n\n           0       0.77      0.77      0.77       792\n           1       0.77      0.77      0.77       808\n\n    accuracy                           0.77      1600\n   macro avg       0.77      0.77      0.77      1600\nweighted avg       0.77      0.77      0.77      1600\n",
+    "confusion_matrix": [
+      [
+        611,
+        181
+      ],
+      [
+        185,
+        623
+      ]
+    ],
+    "train_time_s": 0.001,
+    "feature_space": "BERT PCA (100)",
+    "dim": 100,
+    "method": "BERT PCA",
+    "explained_variance": 0.8768015503883362
+  },
+  {
+    "model": "KNN (k=11)",
+    "accuracy": 0.7906,
+    "macro_f1": 0.7906,
+    "report": "              precision    recall  f1-score   support\n\n           0       0.78      0.80      0.79       792\n           1       0.80      0.79      0.79       808\n\n    accuracy                           0.79      1600\n   macro avg       0.79      0.79      0.79      1600\nweighted avg       0.79      0.79      0.79      1600\n",
+    "confusion_matrix": [
+      [
+        630,
+        162
+      ],
+      [
+        173,
+        635
+      ]
+    ],
+    "train_time_s": 0.001,
+    "feature_space": "BERT PCA (100)",
+    "dim": 100,
+    "method": "BERT PCA",
+    "explained_variance": 0.8768015503883362
+  },
+  {
+    "model": "KMeans",
+    "accuracy": 0.5394,
+    "macro_f1": 0.5394,
+    "report": "              precision    recall  f1-score   support\n\n           0       0.53      0.54      0.54       792\n           1       0.54      0.54      0.54       808\n\n    accuracy                           0.54      1600\n   macro avg       0.54      0.54      0.54      1600\nweighted avg       0.54      0.54      0.54      1600\n",
+    "confusion_matrix": [
+      [
+        426,
+        366
+      ],
+      [
+        371,
+        437
+      ]
+    ],
+    "train_time_s": null,
+    "feature_space": "BERT PCA (100)",
+    "dim": 100,
+    "method": "BERT PCA",
+    "explained_variance": 0.8768015503883362
+  },
+  {
+    "model": "Logistic Regression",
+    "accuracy": 0.8569,
+    "macro_f1": 0.8567,
+    "report": "              precision    recall  f1-score   support\n\n           0       0.87      0.83      0.85       792\n           1       0.84      0.88      0.86       808\n\n    accuracy                           0.86      1600\n   macro avg       0.86      0.86      0.86      1600\nweighted avg       0.86      0.86      0.86      1600\n",
+    "confusion_matrix": [
+      [
+        659,
+        133
+      ],
+      [
+        96,
+        712
+      ]
+    ],
+    "train_time_s": 0.025,
+    "feature_space": "TF-IDF SVD (200)",
+    "dim": 200,
+    "method": "TF-IDF SVD",
+    "explained_variance": 0.1316695032697484
+  },
+  {
+    "model": "Linear SVM",
+    "accuracy": 0.8688,
+    "macro_f1": 0.8687,
+    "report": "              precision    recall  f1-score   support\n\n           0       0.87      0.86      0.87       792\n           1       0.86      0.88      0.87       808\n\n    accuracy                           0.87      1600\n   macro avg       0.87      0.87      0.87      1600\nweighted avg       0.87      0.87      0.87      1600\n",
+    "confusion_matrix": [
+      [
+        681,
+        111
+      ],
+      [
+        99,
+        709
+      ]
+    ],
+    "train_time_s": 0.083,
+    "feature_space": "TF-IDF SVD (200)",
+    "dim": 200,
+    "method": "TF-IDF SVD",
+    "explained_variance": 0.1316695032697484
+  },
+  {
+    "model": "RBF SVM",
+    "accuracy": 0.8631,
+    "macro_f1": 0.8631,
+    "report": "              precision    recall  f1-score   support\n\n           0       0.84      0.89      0.87       792\n           1       0.88      0.84      0.86       808\n\n    accuracy                           0.86      1600\n   macro avg       0.86      0.86      0.86      1600\nweighted avg       0.86      0.86      0.86      1600\n",
+    "confusion_matrix": [
+      [
+        704,
+        88
+      ],
+      [
+        131,
+        677
+      ]
+    ],
+    "train_time_s": 1.195,
+    "feature_space": "TF-IDF SVD (200)",
+    "dim": 200,
+    "method": "TF-IDF SVD",
+    "explained_variance": 0.1316695032697484
+  },
+  {
+    "model": "KNN (k=5)",
+    "accuracy": 0.7644,
+    "macro_f1": 0.7643,
+    "report": "              precision    recall  f1-score   support\n\n           0       0.77      0.76      0.76       792\n           1       0.76      0.77      0.77       808\n\n    accuracy                           0.76      1600\n   macro avg       0.76      0.76      0.76      1600\nweighted avg       0.76      0.76      0.76      1600\n",
+    "confusion_matrix": [
+      [
+        598,
+        194
+      ],
+      [
+        183,
+        625
+      ]
+    ],
+    "train_time_s": 0.001,
+    "feature_space": "TF-IDF SVD (200)",
+    "dim": 200,
+    "method": "TF-IDF SVD",
+    "explained_variance": 0.1316695032697484
+  },
+  {
+    "model": "KNN (k=11)",
+    "accuracy": 0.7819,
+    "macro_f1": 0.7819,
+    "report": "              precision    recall  f1-score   support\n\n           0       0.78      0.78      0.78       792\n           1       0.78      0.78      0.78       808\n\n    accuracy                           0.78      1600\n   macro avg       0.78      0.78      0.78      1600\nweighted avg       0.78      0.78      0.78      1600\n",
+    "confusion_matrix": [
+      [
+        617,
+        175
+      ],
+      [
+        174,
+        634
+      ]
+    ],
+    "train_time_s": 0.001,
+    "feature_space": "TF-IDF SVD (200)",
+    "dim": 200,
+    "method": "TF-IDF SVD",
+    "explained_variance": 0.1316695032697484
+  },
+  {
+    "model": "KMeans",
+    "accuracy": 0.5325,
+    "macro_f1": 0.5314,
+    "report": "              precision    recall  f1-score   support\n\n           0       0.52      0.59      0.55       792\n           1       0.54      0.48      0.51       808\n\n    accuracy                           0.53      1600\n   macro avg       0.53      0.53      0.53      1600\nweighted avg       0.53      0.53      0.53      1600\n",
+    "confusion_matrix": [
+      [
+        465,
+        327
+      ],
+      [
+        421,
+        387
+      ]
+    ],
+    "train_time_s": null,
+    "feature_space": "TF-IDF SVD (200)",
+    "dim": 200,
+    "method": "TF-IDF SVD",
+    "explained_variance": 0.1316695032697484
+  },
+  {
+    "model": "Logistic Regression",
+    "accuracy": 0.8456,
+    "macro_f1": 0.8456,
+    "report": "              precision    recall  f1-score   support\n\n           0       0.83      0.86      0.85       792\n           1       0.86      0.83      0.84       808\n\n    accuracy                           0.85      1600\n   macro avg       0.85      0.85      0.85      1600\nweighted avg       0.85      0.85      0.85      1600\n",
+    "confusion_matrix": [
+      [
+        685,
+        107
+      ],
+      [
+        140,
+        668
+      ]
+    ],
+    "train_time_s": 0.036,
+    "feature_space": "BERT PCA (200)",
+    "dim": 200,
+    "method": "BERT PCA",
+    "explained_variance": 0.9526539444923401
+  },
+  {
+    "model": "Linear SVM",
+    "accuracy": 0.8462,
+    "macro_f1": 0.8462,
+    "report": "              precision    recall  f1-score   support\n\n           0       0.83      0.87      0.85       792\n           1       0.87      0.82      0.84       808\n\n    accuracy                           0.85      1600\n   macro avg       0.85      0.85      0.85      1600\nweighted avg       0.85      0.85      0.85      1600\n",
+    "confusion_matrix": [
+      [
+        690,
+        102
+      ],
+      [
+        144,
+        664
+      ]
+    ],
+    "train_time_s": 0.16,
+    "feature_space": "BERT PCA (200)",
+    "dim": 200,
+    "method": "BERT PCA",
+    "explained_variance": 0.9526539444923401
+  },
+  {
+    "model": "RBF SVM",
+    "accuracy": 0.8506,
+    "macro_f1": 0.8506,
+    "report": "              precision    recall  f1-score   support\n\n           0       0.84      0.87      0.85       792\n           1       0.87      0.83      0.85       808\n\n    accuracy                           0.85      1600\n   macro avg       0.85      0.85      0.85      1600\nweighted avg       0.85      0.85      0.85      1600\n",
+    "confusion_matrix": [
+      [
+        689,
+        103
+      ],
+      [
+        136,
+        672
+      ]
+    ],
+    "train_time_s": 1.12,
+    "feature_space": "BERT PCA (200)",
+    "dim": 200,
+    "method": "BERT PCA",
+    "explained_variance": 0.9526539444923401
+  },
+  {
+    "model": "KNN (k=5)",
+    "accuracy": 0.7694,
+    "macro_f1": 0.7693,
+    "report": "              precision    recall  f1-score   support\n\n           0       0.77      0.76      0.77       792\n           1       0.77      0.77      0.77       808\n\n    accuracy                           0.77      1600\n   macro avg       0.77      0.77      0.77      1600\nweighted avg       0.77      0.77      0.77      1600\n",
+    "confusion_matrix": [
+      [
+        605,
+        187
+      ],
+      [
+        182,
+        626
+      ]
+    ],
+    "train_time_s": 0.001,
+    "feature_space": "BERT PCA (200)",
+    "dim": 200,
+    "method": "BERT PCA",
+    "explained_variance": 0.9526539444923401
+  },
+  {
+    "model": "KNN (k=11)",
+    "accuracy": 0.7875,
+    "macro_f1": 0.7875,
+    "report": "              precision    recall  f1-score   support\n\n           0       0.78      0.80      0.79       792\n           1       0.80      0.78      0.79       808\n\n    accuracy                           0.79      1600\n   macro avg       0.79      0.79      0.79      1600\nweighted avg       0.79      0.79      0.79      1600\n",
+    "confusion_matrix": [
+      [
+        631,
+        161
+      ],
+      [
+        179,
+        629
+      ]
+    ],
+    "train_time_s": 0.001,
+    "feature_space": "BERT PCA (200)",
+    "dim": 200,
+    "method": "BERT PCA",
+    "explained_variance": 0.9526539444923401
+  },
+  {
+    "model": "KMeans",
+    "accuracy": 0.5394,
+    "macro_f1": 0.5394,
+    "report": "              precision    recall  f1-score   support\n\n           0       0.53      0.54      0.54       792\n           1       0.54      0.54      0.54       808\n\n    accuracy                           0.54      1600\n   macro avg       0.54      0.54      0.54      1600\nweighted avg       0.54      0.54      0.54      1600\n",
+    "confusion_matrix": [
+      [
+        426,
+        366
+      ],
+      [
+        371,
+        437
+      ]
+    ],
+    "train_time_s": null,
+    "feature_space": "BERT PCA (200)",
+    "dim": 200,
+    "method": "BERT PCA",
+    "explained_variance": 0.9526539444923401
+  }
+]
