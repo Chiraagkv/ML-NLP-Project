@@ -1,6 +1,6 @@
 """
 Training + evaluation 
-Supports: Logistic Regression, Linear SVM, RBF SVM, KNN, KMeans
+Supports: Logistic Regression, Linear SVM,KNN, KMeans
 Works with BoW, TF-IDF, Embeddings, PCA-reduced features.
 
 Usage:
@@ -26,7 +26,6 @@ def get_models():
     random_state=42,
 ),
         "Linear SVM": LinearSVC(C=1.0,max_iter=2000,random_state=42,),
-        "RBF SVM": SVC(kernel="rbf",C=1.0,gamma="scale",random_state=42,),
         "KNN (k=5)": KNeighborsClassifier(n_neighbors=5,metric="cosine",n_jobs=-1,),
         "KNN (k=11)": KNeighborsClassifier(n_neighbors=11,metric="cosine",n_jobs=-1,),
     }
